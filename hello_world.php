@@ -1,2 +1,4 @@
 <?php
-echo "Hello World!";
+function helloWorld() {
+  echo "Hello World!";
+}
