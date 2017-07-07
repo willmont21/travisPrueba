@@ -10,10 +10,7 @@ class CalculatorTests extends PHPUnit_Framework_TestCase
         $this->calculator = new Calculator();
     }
  
-    protected function tearDown()
-    {
-        $this->calculator = NULL;
-    }
+    
  
     public function testAdd()
     {
