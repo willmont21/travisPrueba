@@ -3,6 +3,4 @@ dist: xenial
 php:
 - 7.0
 - hhvm
-
-  
 script: phpunit test.php
