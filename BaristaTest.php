@@ -1,5 +1,6 @@
 <?php
-require_once 'PHPUnit/Framework/TestCase.php';
+use PHPUnit\Framework\TestCase;
+
 foreach(glob("code/*.php") as $file){
     require_once $file;
 }
