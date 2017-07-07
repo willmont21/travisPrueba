@@ -2,6 +2,11 @@
 language: php
 dist: xenial
 php:
-- 5.5
+- 7.0
+
+before_install:
+- sudo apt-get update -q
+
+before_script: true
 
 script: phpunit CalculatorTest.php 
