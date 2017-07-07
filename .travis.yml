@@ -9,8 +9,7 @@ php:
 script: phpunit test.php
 
 install:
-  # Install composer packages, will also trigger dump-autoload
-  - travis_retry composer install --no-interaction
+  
   # Install coveralls.phar
   - wget -c -nc --retry-connrefused --tries=0 https://github.com/satooshi/php-coveralls/releases/download/v1.0.1/coveralls.phar
   - chmod +x coveralls.phar
