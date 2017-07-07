@@ -5,11 +5,5 @@ php:
 - 7.0
 - hhvm
 
-matrix:
-  allow failures:
-    - php: hhvm
-    
-before_script:
-  - composer self-update
-  - composer install --prefer-dist -n
+  
 script: phpunit test.php
