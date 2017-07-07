@@ -1,4 +1,5 @@
 <?php
+require_once 'PHPUnit/Autoload.php';
 foreach(glob("code/*.php") as $file){
     require_once $file;
 }
