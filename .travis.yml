@@ -3,4 +3,8 @@ dist: xenial xerul
 php:
 - 7.0
 - hhvm
+
+matrix:
+  allow failures:
+    - php: hhvm
 script: phpunit test.php
