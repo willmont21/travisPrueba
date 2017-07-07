@@ -1,8 +1,8 @@
 <?php
 foreach(glob("code/*.php") as $file){
     require_once $file;
-    require_once ('PHPUnit/Autoload.php');
 }
+require_once ('PHPUnit/Autoload.php');
 class BaristaTest extends PHPUnit_Framework_TestCase {
     private $barista;
     private $mockEspresso;
