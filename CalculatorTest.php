@@ -7,7 +7,8 @@ class CalculatorTests extends PHPUnit_Framework_TestCase
  
     public function testAdd()
     {
-        $this->assertEquals(3, add(1,2));
+      $result = $this->calculator->add(1,2);  
+      $this->assertEquals(3, $result);
     }
  
 }
