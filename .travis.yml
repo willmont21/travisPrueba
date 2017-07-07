@@ -4,4 +4,4 @@ dist: xenial
 php:
 - 7.0
 
-script: phpunit BaristaTest.php
+script: phpunit EmailTest.php
