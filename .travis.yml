@@ -3,4 +3,4 @@ dist: xenial
 php:
 - 7.0
 - hhvm
-script: phpunit BaristaTest.php
+script: phpunit test.php
