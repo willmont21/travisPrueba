@@ -1,6 +1,4 @@
 language: php
-sudo: required
-dist: xerus
-php:
-- 7.0
+dist: xenial
+php: 7.0
 script: phpunit test.php
