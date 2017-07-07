@@ -1,5 +1,5 @@
 language: php
-dist: xenial
+dist: xenial xerul
 php:
 - 7.0
 - hhvm
