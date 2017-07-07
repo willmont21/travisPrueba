@@ -1,5 +1,5 @@
 <?php
-require_once 'PHPUnit/Autoload.php';
+require_once 'PHPUnit/Framework/TestCase.php';
 foreach(glob("code/*.php") as $file){
     require_once $file;
 }
