@@ -1,7 +1,6 @@
 language: php
 sudo: required
-dist: xenial
+dist: xerus
 php:
 - 7.0
-- hhvm
 script: phpunit test.php
